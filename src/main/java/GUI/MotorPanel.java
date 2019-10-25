@@ -87,7 +87,7 @@ public class MotorPanel implements MqttCallback{
 
         try {
             UUID uuid = UUID.randomUUID();
-            client2 = new MqttClient("tcp://localhost:1883", uuid.toString());
+            client2 = new MqttClient("tcp://192.168.1.6:1883", uuid.toString());
             client2.connect();
             client2.setCallback(this);
             client2.subscribe("sensor/on_demand/question", 2);
@@ -185,11 +185,16 @@ public class MotorPanel implements MqttCallback{
     public void messageArrived(String topic, MqttMessage message)
             throws Exception {
         System.out.println(String.format("Ricevuto da Gui %s", new String(message.getPayload())));
+        update();
     }
 
     @Override
     public void deliveryComplete(IMqttDeliveryToken token) {
         // TODO Auto-generated method stub
 
+    }
+
+    public void update(){
+        System.out.println("ciao");
     }
 }
