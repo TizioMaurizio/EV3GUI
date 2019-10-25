@@ -1,5 +1,6 @@
 package GUI;
 
+import javafx.scene.layout.StackPane;
 import org.json.simple.JSONObject;
 
 import javafx.scene.Cursor;
@@ -19,7 +20,7 @@ import org.eclipse.paho.client.mqttv3.*;
 
 import static java.lang.System.currentTimeMillis;
 
-public class MotorPanel implements MqttCallback{
+public class SensorPanel implements MqttCallback{
 
     class Delta {
         double x, y;
@@ -42,8 +43,9 @@ public class MotorPanel implements MqttCallback{
     boolean holdCtrl = true;
     final Delta dragDelta = new Delta();
     MqttClient client2;
+    StackPane panel = new StackPane();
 
-    public MotorPanel(String ev3, String motor, String type){
+    public SensorPanel(String ev3, String motor, String type){
 
         double width = 100;
         double height = 200;
@@ -90,20 +92,14 @@ public class MotorPanel implements MqttCallback{
         buttons.add(runForever);
         //buttons.add(slider);
         buttons.add(motorSpeed);
+        panel.getChildren().addAll(buttons);
 
         try {
-            UUID uuid = UUID.randomUUID();
             client2 = new MqttClient("tcp://192.168.1.6:1883", ev3);
             client2.connect();
             client2.setCallback(this);
-            client2.subscribe("motor/action/stop", 2);
-            client2.subscribe("motor/action/rel", 2);
-            client2.subscribe("motor/action/rel1verse", 2);
-            client2.subscribe("motor/action/forever", 2);
-            client2.subscribe("motor/action/timed", 2);
-            client2.subscribe("motor/action/abs", 2);
+            client2.subscribe("sensor/on_demand/question", 2);
             client2.subscribe("time0_init", 2);
-            //  client2.subscribe("ev3_config", 2);
         } catch (MqttException e) {
             e.printStackTrace();
         }
@@ -113,6 +109,10 @@ public class MotorPanel implements MqttCallback{
 
     public List<Node> getButtons(){
         return buttons;
+    }
+
+    public StackPane getPanel(){
+        return panel;
     }
 
     public void setLayout(double x, double y) {
@@ -145,7 +145,7 @@ public class MotorPanel implements MqttCallback{
     }
 
     private void ev3Name() {
-        ev3Name.setStyle("-fx-background-image: url('src/main/java/GUI/AmmoCubes/YellowAmmo.png')");
+        ev3Name.setStyle("-fx-background-image: url('src/main/java/GUI/AmmoCubes/BlueAmmo.png')");
         ev3Name.setOnMousePressed(press -> {
             instant = currentTimeMillis();
             if ((instant - previnstant <= 500)) {
