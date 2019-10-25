@@ -1,5 +1,7 @@
 package GUI;
 
+import org.json.simple.JSONObject;
+
 import javafx.scene.Cursor;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
@@ -138,6 +140,21 @@ public class MotorPanel implements MqttCallback{
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+                //////////////////////
+                JSONObject obj = new JSONObject();
+
+                obj.put("ev3", "ev3B");
+                obj.put("1", "outA");
+                obj.put("2", "Large");
+                System.out.print(obj);
+                MqttMessage message = new MqttMessage();
+                message.setPayload(obj.toJSONString().getBytes());
+                try {
+                    client2.publish("ev3_config", message);
+                } catch (MqttException e) {
+                    e.printStackTrace();
+                }
+                ////
                 previnstant = 0;
             } else previnstant = instant;
         });
@@ -148,14 +165,22 @@ public class MotorPanel implements MqttCallback{
         runForever.setOnMousePressed(press -> {
             instant = currentTimeMillis();
             if ((instant - previnstant <= 500)) {
-                MqttMessage message = new MqttMessage();
-                message.setPayload(Integer.toString(i)
-                        .getBytes());
+                ////
+                JSONObject obj2 = new JSONObject();
+
+                obj2.put("ev3", "ev3B");
+                obj2.put("motor", "outA");
+                obj2.put("value", Integer.parseInt(motorSpeed.getCharacters().toString()));
+
+                System.out.print(obj2);
+                MqttMessage message2 = new MqttMessage();
+                message2.setPayload(obj2.toJSONString().getBytes());
                 try {
-                    client2.publish("ev3_config", message);
+                    client2.publish("motor/action/forever", message2);
                 } catch (MqttException e) {
                     e.printStackTrace();
                 }
+                ////////////////
                 i++;
                 componentName.setText(Integer.toString(i));
                 previnstant = 0;

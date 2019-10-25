@@ -2,6 +2,7 @@
   <library name="org.eclipse.paho.client.mqttv3-1.1.1">
     <CLASSES>
       <root url="jar://$USER_HOME$/Desktop/Paho/org.eclipse.paho.client.mqttv3-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/JSon simple/json-simple-1.1.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
