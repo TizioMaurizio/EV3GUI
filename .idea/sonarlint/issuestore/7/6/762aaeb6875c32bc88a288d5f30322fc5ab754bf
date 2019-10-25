@@ -1,0 +1,10 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŸÎÃÿÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(ÐÆ§û
+psquid:S00116"XRename this field "RTGuiKeyboard" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€™Ýž
+‡"squid:ClassVariableVisibilityCheck"TMake launcher a static final constant or non-public and provide accessors if needed.(£Ë–Àúÿÿÿÿ
+Isquid:S1135"2Complete the task associated to this TODO comment.(Ãæ˜
+ˆ"squid:ClassVariableVisibilityCheck"UMake cliThread a static final constant or non-public and provide accessors if needed.(£ËÐÜùÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÝØ˜Žúÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"PMake game a static final constant or non-public and provide accessors if needed.(®‡Ð
+‡"squid:ClassVariableVisibilityCheck"YMake RTGuiKeyboard a static final constant or non-public and provide accessors if needed.(€™Ýž

@@ -1,0 +1,14 @@
+
+Csquid:S1068>",Remove this unused "holdCtrl" private field.(„úœÙ
+isquid:S3776h"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(÷¤šÈ
+jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¯Ùˆ•ûÿÿÿÿ
+Lsquid:S1066­"/Merge this if statement with the enclosing one.(·º®µýÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÝØ˜Žúÿÿÿÿ
+=squid:S1068?"&Remove this unused "up" private field.(ËÐàè
+qsquid:S1450A"URemove the "startW" field and declare it as a local variable in the relevant methods.(Ž¤„ßÿÿÿÿÿ
+Csquid:S1602l",Remove useless curly braces around statement(Ç¨”¯
+asquid:UselessImportCheck	"8Remove this unused import 'javafx.scene.input.KeyEvent'.(¦¶ Æøÿÿÿÿ
+qsquid:S1450@"URemove the "startH" field and declare it as a local variable in the relevant methods.(ÞëˆŠýÿÿÿÿ
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+Dsquid:S1068 "(Remove this unused "fire" private field.(é“ Ùøÿÿÿÿ
+Ssquid:UselessImportCheck"/Remove this unused import 'javafx.event.Event'.(ô”áñ
