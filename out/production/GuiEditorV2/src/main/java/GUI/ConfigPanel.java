@@ -1,8 +1,11 @@
 package GUI;
 
+import GUI.CustomButtons.*;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -29,13 +32,14 @@ import static java.lang.System.currentTimeMillis;
 public class ConfigPanel implements MqttCallback{
     MqttClient client;
     JSONParser parser = new JSONParser();
-    int ev3count = 2;
+    int ev3count = 0;
     GridPane configGrid = new GridPane();
-    Button scan = new Button("Scan");
-    Text username = new Text("Configuration Menu");
+    Button refresh = new Button("⟲");
+    Text title = new Text("Menu");
+    Line line = new Line();
     List<Button> ev3ButtonList = new ArrayList<>();
     public ConfigPanel() throws MqttException {
-        client = new MqttClient("tcp://192.168.1.6:1883", "configPanel");
+        client = new MqttClient("tcp://localhost:1883", "configPanel");
         client.connect();
         client.setCallback(this);
         client.subscribe("hello", 2);
@@ -47,12 +51,14 @@ public class ConfigPanel implements MqttCallback{
         configGrid.setHgap(5);
 
 
-        configGrid.add(username, 0, 0);
+        configGrid.add(title, 0, 0);
 
-
-        configGrid.add(scan, 0, 1);
+        configGrid.add(refresh, 0, 1);
         scan();
-        configGrid.setStyle("-fx-background-color: #D8BFD8;");
+
+        configGrid.add(line,0,0);
+
+        configGrid.setStyle("-fx-background-color: YELLOW;");
 
     }
 
@@ -61,7 +67,7 @@ public class ConfigPanel implements MqttCallback{
     }
 
     private void scan(){
-        scan.setOnMouseClicked(press -> {
+        refresh.setOnMouseClicked(press -> {
             ev3count = 2;
             configGrid.getChildren().removeAll(ev3ButtonList);
             ev3ButtonList.clear();
@@ -80,29 +86,37 @@ public class ConfigPanel implements MqttCallback{
 
     }
 
+    private boolean isPresent = false;
     @Override
     public void messageArrived(String topic, MqttMessage message) throws Exception {
-        boolean isPresent = false;
+        isPresent = false;
         JSONParser parser = new JSONParser();
         try{
             JSONObject jsonObject = (JSONObject) parser.parse(message.toString());
             String ev3name = jsonObject.get("name").toString();
-            System.out.println("EV3 Found: " + ev3name);
-            for (Button bt: ev3ButtonList) {
-                if (bt.getText() == ev3name)
-                    isPresent = true;
-            }
-            if(!isPresent){
-                Platform.runLater(new Runnable() {
-                    @Override
-                    public void run() {
+            System.out.println("EV3 configGridnd: " + ev3name);
+            Platform.runLater(new Runnable() {
+                @Override
+                public void run() {
+                    for(Button bt: ev3ButtonList){
+                        if(bt.getText().equals(ev3name)){
+                            isPresent = true;
+                        }
+                    }
+                    if(!isPresent) {
                         Button newEv3 = new Button(ev3name);
                         ev3ButtonList.add(newEv3);
-                        configGrid.add(newEv3, 0, ev3count);
+                        Button addSensor = new AddSensor(ev3name);
+                        Button addMotor = new AddMotor(ev3name);
+                        ev3ButtonList.add(addSensor);
+                        ev3ButtonList.add(addMotor);
+                        configGrid.add(newEv3, 0, 4 + ev3count);
+                        configGrid.add(addMotor, 1, 4 + ev3count);
+                        configGrid.add(addSensor, 2, 4 + ev3count);
                     }
-                });
-                ev3count++;
-            }
+                }
+            });
+            ev3count++;
         }catch(Exception pe) {
             pe.printStackTrace();
         }

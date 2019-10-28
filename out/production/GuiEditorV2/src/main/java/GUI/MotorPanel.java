@@ -1,5 +1,7 @@
 package GUI;
 
+import GUI.CustomButtons.*;
+import javafx.scene.layout.Region;
 import org.json.simple.JSONObject;
 
 import javafx.scene.Cursor;
@@ -25,48 +27,62 @@ public class MotorPanel implements MqttCallback{
         double x, y;
     }
 
-    String ev3;
-    String motor;
-    String type;
+    String ev3 = "B";
+    String motor = "outA";
+    String type = "Large";
     String speed;
 
     long instant;
     long previnstant=0;
-    Button dragBar = new Button();
-    Button ev3Name = new Button();
-    Button componentName = new Button();
-    Button runForever = new Button();
+
+    MqttClient client2;
+    Button runForever = new Button("Run");
+    Button absRotate = new Button("Rotate");
     Button slider = new Button();
     TextField motorSpeed = new TextField();
-    List<Node> buttons = new ArrayList<>();
+    List<Region> buttons = new ArrayList<>();
+    Dragbar dragBar = new Dragbar(buttons);
+    Ev3Name ev3Name = new Ev3Name();
+    ComponentName componentName = new ComponentName();
+    MinimizeButton minimize = new MinimizeButton(runForever, buttons);
+    MinimizeButton minimizeRotate = new MinimizeButton(absRotate, buttons);
+
     boolean holdCtrl = true;
     final Delta dragDelta = new Delta();
-    MqttClient client2;
 
     public MotorPanel(String ev3, String motor, String type){
 
-        double width = 100;
+        double width = 120;
         double height = 200;
 
-        ev3Name.setPrefWidth(30);
-        ev3Name.setPrefHeight(40);
-        ev3Name();
-
-        componentName.setTranslateX(ev3Name.getPrefWidth());
-        componentName.setPrefWidth(width - ev3Name.getPrefWidth());
-        componentName.setPrefHeight(ev3Name.getPrefHeight());
-
-        dragBar.setTranslateY(ev3Name.getPrefHeight());
         dragBar.setPrefWidth(width);
         dragBar.setPrefHeight(10);
         dragBar.setMinHeight(10);
         dragBar.setMaxHeight(10);
-        dragBar();
+
+        minimizeRotate.setTranslateX(minimize.getPrefWidth()+8);
+
+        ev3Name.setTranslateY(dragBar.getPrefHeight());
+        ev3Name.setPrefWidth(40);
+        ev3Name.setPrefHeight(40);
+        ev3Name.setStyle("-fx-background-color: RED; ");
+        ev3Name.setText(ev3);
+
+        componentName.setTranslateY(dragBar.getPrefHeight());
+        componentName.setTranslateX(ev3Name.getPrefWidth());
+        componentName.setPrefWidth(width - ev3Name.getPrefWidth());
+        componentName.setPrefHeight(ev3Name.getPrefHeight());
+        componentName.setText(type + "Motor\n" + motor);
 
         runForever.setTranslateY(ev3Name.getPrefHeight() + dragBar.getPrefHeight());
         runForever.setPrefWidth(width);
         runForever.setPrefHeight(40);
+        runForever.setStyle("-fx-alignment: center-left; -fx-background-color: GREY; ");
         runForever();
+
+        absRotate.setTranslateY(ev3Name.getPrefHeight() + dragBar.getPrefHeight()+ runForever.getPrefHeight());
+        absRotate.setPrefWidth(width);
+        absRotate.setPrefHeight(40);
 
         slider.setTranslateY(ev3Name.getPrefHeight() + dragBar.getPrefHeight() + 15);
         slider.setTranslateX(10);
@@ -78,7 +94,7 @@ public class MotorPanel implements MqttCallback{
         slider.setMaxHeight(15);
         //slider();
 
-        motorSpeed.setTranslateY(ev3Name.getPrefHeight() + dragBar.getPrefHeight() + 13 );
+        motorSpeed.setTranslateY(ev3Name.getPrefHeight() + dragBar.getPrefHeight() + 10 );
         motorSpeed.setTranslateX(40);
         motorSpeed.setPrefWidth(runForever.getPrefWidth() - 50);
 
@@ -90,10 +106,13 @@ public class MotorPanel implements MqttCallback{
         buttons.add(runForever);
         //buttons.add(slider);
         buttons.add(motorSpeed);
+        buttons.add(absRotate);
+        buttons.add(minimize);
+        buttons.add(minimizeRotate);
 
         try {
             UUID uuid = UUID.randomUUID();
-            client2 = new MqttClient("tcp://192.168.1.6:1883", ev3);
+            client2 = new MqttClient("tcp://localhost:1883", ev3);
             client2.connect();
             client2.setCallback(this);
             client2.subscribe("motor/action/stop", 2);
@@ -103,6 +122,7 @@ public class MotorPanel implements MqttCallback{
             client2.subscribe("motor/action/timed", 2);
             client2.subscribe("motor/action/abs", 2);
             client2.subscribe("time0_init", 2);
+            ev3Name.setClient(client2);
             //  client2.subscribe("ev3_config", 2);
         } catch (MqttException e) {
             e.printStackTrace();
@@ -111,12 +131,12 @@ public class MotorPanel implements MqttCallback{
 
     // MotorPanel functions
 
-    public List<Node> getButtons(){
+    public List<Region> getButtons(){
         return buttons;
     }
 
     public void setLayout(double x, double y) {
-        for (Node bt : buttons) {
+        for (Region bt : buttons) {
             bt.setLayoutX(bt.getLayoutX() + x);
             bt.setLayoutY(bt.getLayoutY() + y);
         }
@@ -124,50 +144,6 @@ public class MotorPanel implements MqttCallback{
 
 
     // panel parts methods
-
-    private void dragBar() {
-        // dragBar functions
-        dragBar.setOnMousePressed(t -> {
-            if (holdCtrl) {
-                dragDelta.x = dragBar.getLayoutX() - t.getSceneX();
-                dragDelta.y = dragBar.getLayoutY() - t.getSceneY();
-            }
-        });
-        dragBar.setOnMouseDragged(t -> {
-            if (holdCtrl) {
-                for (Node bt : buttons) {
-                    bt.setLayoutX(t.getSceneX() + dragDelta.x);
-                    bt.setLayoutY(t.getSceneY() + dragDelta.y);
-                }
-                dragBar.setCursor(Cursor.MOVE);
-            }
-        });
-    }
-
-    private void ev3Name() {
-        ev3Name.setStyle("-fx-background-image: url('src/main/java/GUI/AmmoCubes/YellowAmmo.png')");
-        ev3Name.setOnMousePressed(press -> {
-            instant = currentTimeMillis();
-            if ((instant - previnstant <= 500)) {
-                //////////////////////
-                JSONObject obj = new JSONObject();
-
-                obj.put("ev3", "ev3B");
-                obj.put("1", "outA");
-                obj.put("2", "Large");
-                System.out.print(obj);
-                MqttMessage message = new MqttMessage();
-                message.setPayload(obj.toJSONString().getBytes());
-                try {
-                    client2.publish("ev3_config", message);
-                } catch (MqttException e) {
-                    e.printStackTrace();
-                }
-                ////
-                previnstant = 0;
-            } else previnstant = instant;
-        });
-    }
 
     private void runForever() {
         runForever.setOnMousePressed(press -> {
@@ -193,11 +169,14 @@ public class MotorPanel implements MqttCallback{
                     e.printStackTrace();
                 }
                 ////////////////
-                i++;
-                componentName.setText(Integer.toString(i));
                 previnstant = 0;
             } else previnstant = instant;
         });
+
+        /*runForever.setOnMouseReleased(e -> {
+            runForever.setStyle("-fx-background-color: GREY; ");
+            runForever.setText("Run");
+        });*/
     }
     int i=0;
     /*private void slider() {

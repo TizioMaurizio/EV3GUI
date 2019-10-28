@@ -20,13 +20,12 @@ public class PahoDemo implements MqttCallback {
 
     public void doDemo() {
         try {
-            client = new MqttClient("tcp://192.168.1.6:1883", "Sending");
+            client = new MqttClient("tcp://localhost:1883", "Sending");
             client.connect();
             client.setCallback(this);
             client.subscribe("foo");
             MqttMessage message = new MqttMessage();
-            message.setPayload("Messaggio da Sending"
-                    .getBytes());
+            message.setPayload("Messaggio da Sending".getBytes());
             client.publish("foo", message);
         } catch (MqttException e) {
             e.printStackTrace();
