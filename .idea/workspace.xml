@@ -2,38 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f1ed0e-ac1a-49d4-8c4e-ca5ffb2e3114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MqttButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13156e2e-5f72-4376-b6e7-46a5c6d67691-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1c9cd03d-bdd0-42ac-9cdb-79a87f1ce052-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/502fca18-9721-498c-9fb2-bbb61fc027aa-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/70f00f76-f259-4c42-8e5e-87541772f5b5-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gui-tcplocalhost1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c8a48b3b-a579-4f2d-ae91-79aa17eccf22-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e6f0d67f-ddba-40db-81aa-7e0c5d3e85a4-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e79e5a65-37f2-4d3c-94ce-2b5e018f57c5-tcp192168161883/.lck" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ConfigPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ConfigPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/EV3GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/EV3GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ImageButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/MotorPanel$Delta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/MotorPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/PahoDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/SensorPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ConfigPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/EV3GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/EV3GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ImageButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/MotorPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/PahoDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/SensorPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/AddMotor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/AddSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ComponentName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonCompName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Ev3Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/EV3GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/EV3GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ImageButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Old/ImageButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/MotorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/PahoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Old/PahoDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/13156e2e-5f72-4376-b6e7-46a5c6d67691-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/1c9cd03d-bdd0-42ac-9cdb-79a87f1ce052-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/502fca18-9721-498c-9fb2-bbb61fc027aa-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/70f00f76-f259-4c42-8e5e-87541772f5b5-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/Gui-tcplocalhost1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/c8a48b3b-a579-4f2d-ae91-79aa17eccf22-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/e6f0d67f-ddba-40db-81aa-7e0c5d3e85a4-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/e79e5a65-37f2-4d3c-94ce-2b5e018f57c5-tcp192168161883/.lck" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4017">
-              <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+            <state relative-caret-position="-222">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2748#2749#0" expanded="true" />
@@ -179,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-12">
-              <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#92#93#0" expanded="true" />
@@ -291,10 +277,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="330" />
+    <option name="y" value="-8" />
+    <option name="width" value="1207" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -400,9 +387,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16034272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16034272" />
       <window_info id="Structure" order="1" weight="0.249694" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +397,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884398" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26262626" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26262626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
-          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#92#93#0" expanded="true" />
@@ -676,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4017">
-          <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+        <state relative-caret-position="-222">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2748#2749#0" expanded="true" />
