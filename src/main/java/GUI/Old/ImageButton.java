@@ -1,15 +1,12 @@
-package GUI;
+package GUI.Old;
 
-import javafx.event.Event;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.transform.Rotate;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class ImageButton extends Button {

@@ -1,36 +1,57 @@
 package GUI;
 
+import GUI.ControlPanels.MotorPanel;
+import GUI.ControlPanels.SensorPanel;
+import GUI.ControlPanels.ControlPanel;
+import GUI.Ev3Classes.Component;
+import GUI.Ev3Classes.Ev3;
+import GUI.Old.PahoDemo;
+import Utility.CircularArrayList;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.eclipse.paho.client.mqttv3.*;
 
 
-import static java.lang.System.currentTimeMillis;
+import java.util.ArrayList;
+import java.util.List;
 
 public class EV3GUI extends Stage{
 
-    private AnchorPane arena = new AnchorPane();
+    public static MqttClient GuiClient;
+    public static List<Ev3> Ev3List = new ArrayList<>();
+    public static List<ControlPanel> panels = new ArrayList<>();
+    public static AnchorPane arena = new AnchorPane();
     public Scene scene1;
-    MotorPanel motorPanel = new MotorPanel("ev3A","outA","Large");
-    SensorPanel sensorPanel = new SensorPanel("ev3B", "outA", "Medium");
-    ConfigPanel configPanel = new ConfigPanel();
+    MotorPanel motorPanel;
+    SensorPanel sensorPanel;
+    Menu menu = new Menu();
+    public static List<String> colors = new CircularArrayList<>();
 
     // button and pane are created
     public EV3GUI() throws MqttException{
-
+        GuiClient = new MqttClient("tcp://localhost:1883", "GuiClient");
+        GuiClient.connect();
+        Ev3 testEv3 = new Ev3("ev3B");
+        Component testMotor = new Component(testEv3, "MotorA", "Large");
+        testEv3.add(testMotor);
+        motorPanel = new MotorPanel(testEv3.get("MotorA"));
+        // sensorPanel = new SensorPanel(testEv3.get("")); TODO impossibile senza ev3 fisico
+        initColors();
         PahoDemo demo = new PahoDemo();
         demo.doDemo();
-        arena.getChildren().add(configPanel.getPanel());
-        // button added to pane and pane added to scene
-        arena.getChildren().addAll(motorPanel.getButtons());
-        arena.getChildren().addAll(sensorPanel.getButtons());
-        sensorPanel.setLayout(400,200);
-        motorPanel.setLayout(200,200);
+        arena.getChildren().add(menu.getPanel());
         scene1 = new Scene(arena);
         this.setScene(scene1);
         this.setWidth(1920/2);
         this.setHeight(1080/2);
         this.show();
+    }
+
+    public void initColors(){
+        colors.add("red");
+        colors.add("green");
+        colors.add("blue");
+        colors.add("yellow");
     }
 }

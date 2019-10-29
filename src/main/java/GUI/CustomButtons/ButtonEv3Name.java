@@ -10,7 +10,7 @@ import org.json.simple.JSONObject;
 
 import static java.lang.System.currentTimeMillis;
 
-public class Ev3Name extends Button {
+public class ButtonEv3Name extends Button {
     long instant;
     long previnstant=0;
     MqttClient client;
@@ -19,7 +19,7 @@ public class Ev3Name extends Button {
         this.client = client;
     }
 
-    public Ev3Name() {
+    public ButtonEv3Name() {
 
         this.setOnMousePressed(press -> {
             instant = currentTimeMillis();
@@ -34,7 +34,7 @@ public class Ev3Name extends Button {
                 MqttMessage message = new MqttMessage();
                 message.setPayload(obj.toJSONString().getBytes());
                 try {
-                    client.publish("ev3_config", message);
+                   client.publish("ev3_config", message);
                 } catch (MqttException e) {
                     e.printStackTrace();
                 }
