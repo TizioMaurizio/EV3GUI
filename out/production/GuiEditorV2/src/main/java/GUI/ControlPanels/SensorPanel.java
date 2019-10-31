@@ -57,7 +57,7 @@ public class SensorPanel extends ControlPanel implements MqttCallback{
         colorBox.setTranslateY(ev3Name.getPrefHeight() + dragBar.getPrefHeight());
         colorBox.setPrefWidth(width);
         colorBox.setPrefHeight(60);
-        colorBox.setStyle("-fx-background-color: GREY; -fx-border-color: GREY");
+        colorBox.setStyle("-fx-background-color: WHITE; -fx-border-color: GREY");
         colorBox.setOnMousePressed(press -> {
             //
         });

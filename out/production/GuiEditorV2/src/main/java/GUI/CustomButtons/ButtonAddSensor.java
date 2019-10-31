@@ -24,10 +24,16 @@ public class ButtonAddSensor extends MqttButton {
     GridPane grid = new GridPane();
     Scene addSensor = new Scene(grid, 230, 180);
     Button confirm = new Button("Confirm");
+    Label sensor = new Label("Configure\nnew sensor");
+    Label portText = new Label("EV3 Port: \n(in1,2,3,4)");
+    Label sensorText = new Label("Sensor type: \n(COL-COLOR\n /TOUCH)");
+    String port;
+    String type;
 
     public ButtonAddSensor(Ev3 ev3){
         ButtonAddSensor buttonAddSensor = this;
         this.setText("+Sensor");
+
         this.setOnAction(new EventHandler<ActionEvent>() {
 
             @Override
@@ -35,7 +41,7 @@ public class ButtonAddSensor extends MqttButton {
 
                 GridPane secondaryLayout = new GridPane();
 
-                Scene secondScene = new Scene(secondaryLayout, 230, 180);
+                Scene secondScene = new Scene(secondaryLayout, 300, 200);
 
                 // New window (Stage)
                 Stage newWindow = new Stage();
@@ -55,30 +61,43 @@ public class ButtonAddSensor extends MqttButton {
 
                 newWindow.show();
 
-                Label sensor = new Label("Configure\nnew sensor");
                 sensor.setStyle("-fx-text-fill: BLUE");
-                Label portText = new Label("EV3 Port: \n(in1,2,3,4)");
-                Label sensorText = new Label("Sensor type: \n(COL-COLOR\n /TOUCH)");
-                TextField port = new TextField();
-                port.setPrefWidth(100);
-                TextField type = new TextField();
-                type.setPrefWidth(100);
-                Button confirm = new Button("Confirm");
 
                 secondaryLayout.add(sensor,0,0);
                 secondaryLayout.add(portText,0,2);
-                secondaryLayout.add(sensorText,0,3);
-                secondaryLayout.add(port,1,2);
-                secondaryLayout.add(type,1,3);
-                secondaryLayout.add(confirm,0,4);
+                secondaryLayout.add(sensorText,4,2);
+                int in = 1;
+                int line = 2;
+                for(int l = 0; l < 4; l++) {
+                    Button bt = new Button("in" + Integer.toString(in++));
+                    secondaryLayout.add(bt, 1, 2 + l);
+                    line += l;
+                    bt.setOnMousePressed(e ->{
+                        port = bt.getText();
+                        bt.setStyle("-fx-background-color: BLUE;");
+                    });
+                }
+                Button color = new Button("COL-COLOR");
+                color.setOnMousePressed(e ->{
+                    type = color.getText();
+                    color.setStyle("-fx-background-color: BLUE;");
+                });
+                secondaryLayout.add(color,5,2);
+                Button touch = new Button("TOUCH");
+                touch.setOnMousePressed(e ->{
+                    type = touch.getText();
+                    touch.setStyle("-fx-background-color: BLUE;");
+                });
+                secondaryLayout.add(touch,5,3);
+                secondaryLayout.add(confirm,0,line+= 2);
 
                 confirm.setOnMousePressed(e -> {
                     try {
-                        Component newComponent = new Component(ev3, port.getCharacters().toString(), type.getCharacters().toString());
+                        Component newComponent = new Component(ev3, port, type);
                         //JSONObject obj2 = new JSONObject();
                         //obj2.put("ev3", ev3.getName());
                         int k = 0;
-                        switch(port.getCharacters().toString()){
+                        switch(port){
                             case("in1"):
                                 k=9;
                                 break;
@@ -94,6 +113,7 @@ public class ButtonAddSensor extends MqttButton {
                             default:
                                 throw new Exception();
                         }
+                        newComponent.setPort(k);
                         //obj2.put(Integer.toString(k), port.getCharacters().toString());
                         //int k = Integer.parseInt(port.getCharacters().toString());
                         //obj2.put(Integer.toString(k+1), type.getCharacters().toString());
@@ -101,7 +121,7 @@ public class ButtonAddSensor extends MqttButton {
                         for (Ev3 ev: Ev3List) {
                             if(ev.getName().equals(ev3.getName())){
                                 ev.jsonPut("ev3", ev3.getName());
-                                ev.jsonPut(Integer.toString(k), port.getCharacters().toString());
+                                ev.jsonPut(Integer.toString(k), port);
                             }
                         }
                         int i=0;

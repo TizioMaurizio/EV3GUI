@@ -1,0 +1,11 @@
+
+jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¯Ùˆ•ûÿÿÿÿ
+Dsquid:S1068"(Remove this unused "fire" private field.(é“ Ùøÿÿÿÿ
+Csquid:S1068;",Remove this unused "holdCtrl" private field.(„úœÙ
+qsquid:S1450>"URemove the "startW" field and declare it as a local variable in the relevant methods.(Ž¤„ßÿÿÿÿÿ
+qsquid:S1450="URemove the "startH" field and declare it as a local variable in the relevant methods.(ÞëˆŠýÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷³®÷ÿÿÿÿÿ
+isquid:S3776e"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(÷¤šÈ
+=squid:S1068<"&Remove this unused "up" private field.(ËÐàè
+Lsquid:S1066ª"/Merge this if statement with the enclosing one.(·º®µýÿÿÿÿ
+Csquid:S1602i",Remove useless curly braces around statement(Ç¨”¯

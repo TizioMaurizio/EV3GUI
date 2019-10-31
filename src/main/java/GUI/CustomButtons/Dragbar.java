@@ -18,7 +18,6 @@ public class Dragbar extends Button {
 
     public Dragbar(List<Region> linkedNodes) {
         // dragBar functions
-        this.setStyle("-fx-background-color: BLUE; ");
         this.setOnMousePressed(t -> {
             dragDelta.x = this.getLayoutX() - t.getSceneX();
             dragDelta.y = this.getLayoutY() - t.getSceneY();

@@ -5,6 +5,9 @@ import GUI.CustomButtons.ButtonCompName;
 import GUI.CustomButtons.ButtonEv3Name;
 import GUI.CustomButtons.Dragbar;
 import GUI.EV3GUI;
+import GUI.Ev3Classes.Ev3;
+import javafx.concurrent.Task;
+import javafx.scene.Cursor;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Background;
@@ -16,7 +19,6 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.json.simple.JSONObject;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,51 +48,71 @@ public class ControlPanel {
     }
 
     protected void closePanel(){
-        closePanel.setPrefWidth(10);
-        closePanel.setPrefHeight(10);
-        closePanel.setMinHeight(10);
-        closePanel.setMaxHeight(10);
+        closePanel.setPrefWidth(20);
+        closePanel.setPrefHeight(20);
+        closePanel.setMinHeight(20);
+        closePanel.setMaxHeight(20);
         closePanel.setTranslateX(dragBar.getPrefWidth() - 19);
         closePanel.setStyle("-fx-background-color: BLACK; -fx-border-color: GREY");
         closePanel.setOnMousePressed(press ->{
             instant = currentTimeMillis();
             if ((instant - previnstant <= 500)) {
+                stop.fireEvent(press);
                 EV3GUI.panels.remove(this);
                 EV3GUI.arena.getChildren().removeAll(buttons);
                 previnstant = 0;
+                // update JSON
+                Ev3 ev3 = component.getEv3();
+                ev3.jsonPut(Integer.toString(component.getPort()), null);
+                ev3.jsonPut(Integer.toString(component.getPort() + 1), null);
+                MqttMessage message2 = new MqttMessage();
+                message2.setPayload(ev3.getJsonObject().toJSONString().getBytes());
+                System.out.println(ev3.getJsonObject().toJSONString());
+                try {
+                    EV3GUI.GuiClient.publish("ev3_config", message2);
+                } catch (MqttException q) {
+                    q.printStackTrace();
+                }
             } else previnstant = instant;
         });
         buttons.add(closePanel);
     }
 
     protected void stop(){
-        stop.setPrefWidth(10);
-        stop.setPrefHeight(10);
-        stop.setMinHeight(10);
-        stop.setMaxHeight(10);
-        stop.setTranslateX(dragBar.getPrefWidth() - 34);
+        stop.setPrefWidth(20);
+        stop.setPrefHeight(20);
+        stop.setMinHeight(20);
+        stop.setMaxHeight(20);
+        stop.setTranslateX(dragBar.getPrefWidth() - 40);
         stop.setStyle("-fx-background-color: RED; -fx-border-color: GREY");
         stop.setOnMousePressed(e ->{
             JSONObject obj2 = new JSONObject();
-            obj2.put("ev3", component.getEv3());
-            obj2.put("motor", "out" + component.getPort());
-            obj2.put("value", "COMMAND_STOP");
+            obj2.put("ev3", component.getEv3().getName());
+            obj2.put("motor", component.getName());
+            obj2.put("value", "stop");
             MqttMessage message2 = new MqttMessage();
             message2.setPayload(obj2.toJSONString().getBytes());
+            System.out.println(obj2.toJSONString());
             try {
                 EV3GUI.GuiClient.publish("motor/action/stop", message2);
             } catch (MqttException q) {
                 q.printStackTrace();
             }
+            // stop scheduled tasks (scheduled Json sends)
+            for (Task<Void> task: activeCommands) {
+                task.cancel();
+            }
+            System.out.println(component.getName() + " stopped");
         });
+        stop.setCursor(Cursor.CROSSHAIR);
         buttons.add(stop);
     }
 
     protected void dragBar(){
         dragBar.setPrefWidth(this.getWidth());
-        dragBar.setPrefHeight(10);
-        dragBar.setMinHeight(10);
-        dragBar.setMaxHeight(10);
+        dragBar.setPrefHeight(20);
+        dragBar.setMinHeight(20);
+        dragBar.setMaxHeight(20);
         dragBar.setStyle("-fx-background-color: WHITE; -fx-border-color: GREY");
         buttons.add(dragBar);
     }
@@ -132,6 +154,7 @@ public class ControlPanel {
         buttons.add(ev3Name);
     }
 
+    protected List<Task> activeCommands = new ArrayList<>();
     protected MqttClient client2;
     protected TextField name = new TextField();
     protected long instant;

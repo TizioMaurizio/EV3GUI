@@ -13,14 +13,14 @@ public class MinimizeButton extends Button {
     boolean minimized = false;
     List<Region> hidden = new ArrayList<>();
     public MinimizeButton(Button toMinimize, List<Region> linkedNodes) {
-        this.setPrefWidth(10);
-        this.setPrefHeight(10);
-        this.setMinHeight(10);
-        this.setMaxHeight(10);
-        this.setStyle("-fx-background-color: GREEN; ");
+        this.setPrefWidth(20);
+        this.setPrefHeight(20);
+        this.setMinHeight(20);
+        this.setMaxHeight(20);
+        this.setStyle("-fx-background-color: WHITE; -fx-border-color: GREY");
         // dragBar functions
         this.setOnMousePressed(t -> {if(!minimized) {
-            this.setStyle("-fx-background-color: RED; ");
+            this.setStyle("-fx-background-color: GREY; -fx-border-color: GREY");
             toMinimize.setVisible(false);
             for (Region bt : linkedNodes) {
                 if(bt.getLayoutY() + bt.getTranslateY() >= toMinimize.getLayoutY() + toMinimize.getTranslateY() && bt != toMinimize) {
@@ -35,7 +35,7 @@ public class MinimizeButton extends Button {
             minimized = true;
         }
         else {
-            this.setStyle("-fx-background-color: GREEN; ");
+            this.setStyle("-fx-background-color: WHITE; -fx-border-color: GREY");
             toMinimize.setVisible(true);
             for (Region bt : linkedNodes) {
                 if(bt.getLayoutY() + bt.getTranslateY() >= toMinimize.getLayoutY() + toMinimize.getTranslateY() && bt != toMinimize) {

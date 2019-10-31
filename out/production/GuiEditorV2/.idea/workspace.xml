@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f1ed0e-ac1a-49d4-8c4e-ca5ffb2e3114" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/13156e2e-5f72-4376-b6e7-46a5c6d67691-tcp192168161883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1c9cd03d-bdd0-42ac-9cdb-79a87f1ce052-tcp192168161883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/502fca18-9721-498c-9fb2-bbb61fc027aa-tcp192168161883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/70f00f76-f259-4c42-8e5e-87541772f5b5-tcp192168161883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gui-tcplocalhost1883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c8a48b3b-a579-4f2d-ae91-79aa17eccf22-tcp192168161883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e6f0d67f-ddba-40db-81aa-7e0c5d3e85a4-tcp192168161883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e79e5a65-37f2-4d3c-94ce-2b5e018f57c5-tcp192168161883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2ccc786acf9b18cbae5cedf5e37da713c05c82f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EV3PY/codice ev3.py" beforeDir="false" afterPath="$PROJECT_DIR$/EV3PY/codice ev3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/2/c/2ccc786acf9b18cbae5cedf5e37da713c05c82f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/EV3PY/codice ev3.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/EV3PY/codice ev3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/ControlPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/ControlPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/MotorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/MotorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/SensorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/SensorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/Dragbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/Dragbar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/MinimizeButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/MinimizeButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/Ev3Classes/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/Ev3Classes/Component.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/in4GUIEv3ClassesEv3309ef9a9-tcplocalhost1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/outAGUIEv3ClassesEv3309ef9a9-tcplocalhost1883/.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/MotorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/MotorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/Dragbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/Dragbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/MinimizeButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/MinimizeButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/Ev3Classes/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/Ev3Classes/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,60 +53,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="303" column="71" selection-start-line="303" selection-start-column="71" selection-end-line="303" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
+                <element signature="e#2482#2483#0" expanded="true" />
+                <element signature="method#rotateHistory#0;class#MotorPanel#0" />
+                <element signature="e#12358#13060#0" expanded="true" />
+                <element signature="e#13059#13060#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="116" column="109" selection-start-line="116" selection-start-column="109" selection-end-line="116" selection-end-column="109" />
+            <state relative-caret-position="351">
+              <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,25 +83,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/EV3GUI.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="710">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="120" column="113" selection-start-line="120" selection-start-column="113" selection-end-line="120" selection-end-column="113" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3098#3761#0" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1465">
-              <caret line="124" column="62" selection-start-line="124" selection-start-column="62" selection-end-line="124" selection-end-column="62" />
+            <state relative-caret-position="338">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,30 +108,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="78" />
+            <state relative-caret-position="270">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3003#3004#0" expanded="true" />
-                <element signature="e#3033#3034#0" expanded="true" />
-                <element signature="e#4556#4557#0" expanded="true" />
-                <element signature="e#4662#4663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4017">
-              <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2748#2749#0" expanded="true" />
-                <element signature="e#2785#2786#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,16 +122,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+            <state relative-caret-position="313">
+              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#3380#3381#0" expanded="true" />
-                <element signature="e#3442#3443#0" expanded="true" />
+                <element signature="method#componentName#0;class#ControlPanel#0" />
+                <element signature="e#3697#3726#1" />
+                <element signature="e#4365#4366#0" expanded="true" />
+                <element signature="e#3758#3788#1" />
+                <element signature="e#4427#4428#0" expanded="true" />
+                <element signature="method#setLayout#0;class#ControlPanel#0" />
+                <element signature="method#name#0;class#ControlPanel#0" />
+                <element signature="method#ev3Name#0;class#ControlPanel#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="863">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+              <folding>
+                <element signature="method#Component#0;class#Component#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,23 +186,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>arena</find>
-      <find>scene</find>
-      <find>recei</find>
-      <find>dataStore</find>
-      <find>stage</find>
-      <find>'</find>
-      <find>grid</find>
-      <find>textfield</find>
-      <find>Fou</find>
-      <find>uuid</find>
-      <find>textfie</find>
-      <find>192</find>
-      <find>node</find>
-      <find>Node</find>
-      <find>cont</find>
-      <find>runlat</find>
-      <find>runla</find>
       <find>system</find>
       <find>runlate</find>
       <find>ev3c</find>
@@ -210,6 +199,23 @@
       <find>BLUE</find>
       <find>component</find>
       <find>-fx-border.color: GREY</find>
+      <find>absRotate</find>
+      <find>buttons.add</find>
+      <find>stop</find>
+      <find>stop()</find>
+      <find>active</find>
+      <find>sendVa</find>
+      <find>send</find>
+      <find>close</find>
+      <find>clo</find>
+      <find>closePa</find>
+      <find>ev3</find>
+      <find>rel</find>
+      <find>scan</find>
+      <find>minimi</find>
+      <find>minimize</find>
+      <find>mini</find>
+      <find>relAng</find>
     </findStrings>
     <replaceStrings>
       <replace>scene1</replace>
@@ -218,6 +224,8 @@
       <replace>&quot;</replace>
       <replace>configGrid</replace>
       <replace>addSensor</replace>
+      <replace>relAngle</replace>
+      <replace>relTime</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -236,8 +244,6 @@
         <option value="$PROJECT_DIR$/src/main/java/GUI/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/PahoDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ComponentName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/SensorPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MqttButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/MotorPanel.java" />
@@ -251,11 +257,13 @@
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/AddSensor.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Ev3Name.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ControlPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" />
       </list>
@@ -268,10 +276,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="-8" />
+    <option name="x" value="78" />
     <option name="width" value="1207" />
-    <option name="height" value="1026" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -311,6 +318,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
               <item name="CustomButtons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="Ev3Classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
@@ -376,9 +390,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16034272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15116279" />
       <window_info id="Structure" order="1" weight="0.249694" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,7 +402,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884398" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26262626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26150393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +411,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32659933" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.325477" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,7 +422,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16034272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15177478" />
       <window_info id="Structure" order="1" weight="0.249694" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884398" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26262626" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26150393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +440,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32659933" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.325477" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,16 +468,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/SendDataUsingMQTT.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Launcher.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/GuiEditor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utility/CircularArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -470,9 +475,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MqttClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MqttClient.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonCompName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -497,72 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Old/PahoDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3003#3004#0" expanded="true" />
-            <element signature="e#3033#3034#0" expanded="true" />
-            <element signature="e#4556#4557#0" expanded="true" />
-            <element signature="e#4662#4663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="120" column="113" selection-start-line="120" selection-start-column="113" selection-end-line="120" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3098#3761#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/EV3GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="116" column="109" selection-start-line="116" selection-start-column="109" selection-end-line="116" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -579,85 +520,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/EV3GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="513">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="21" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1465">
-          <caret line="124" column="62" selection-start-line="124" selection-start-column="62" selection-end-line="124" selection-end-column="62" />
+        <state relative-caret-position="338">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="method#Component#0;class#Component#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="313">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3442#3443#0" expanded="true" />
+            <element signature="method#componentName#0;class#ControlPanel#0" />
+            <element signature="e#3697#3726#1" />
+            <element signature="e#4365#4366#0" expanded="true" />
+            <element signature="e#3758#3788#1" />
+            <element signature="e#4427#4428#0" expanded="true" />
+            <element signature="method#setLayout#0;class#ControlPanel#0" />
+            <element signature="method#name#0;class#ControlPanel#0" />
+            <element signature="method#ev3Name#0;class#ControlPanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="142" column="44" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4017">
-          <caret line="158" column="45" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
+        <state relative-caret-position="345">
+          <caret line="303" column="71" selection-start-line="303" selection-start-column="71" selection-end-line="303" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2748#2749#0" expanded="true" />
-            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
+            <element signature="method#rotateHistory#0;class#MotorPanel#0" />
+            <element signature="e#12358#13060#0" expanded="true" />
+            <element signature="e#13059#13060#0" expanded="true" />
           </folding>
         </state>
       </provider>

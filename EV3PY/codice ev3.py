@@ -3,12 +3,13 @@
 
 ### THIS IS THE ONLY LINE TO MODIFY BETWEEN ONE EV3 AND ANOTHER, IT'S NAME IS NECESSARY FOR THE system.py ### 
 ### SCRIPT TO SEND IT THE RIGHT CONFIG MESSAGE ###
-ev3_name = 'ev3C'
+ev3_name = 'ev3A'
 condition = 0
 configuring = 0
 brokerIP = "localhost"
 
 # importing libraries
+from threading import Thread
 import paho.mqtt.client as mqtt
 import ev3dev.ev3 as ev3dev              # control that < #!/usr/bin/env python > is the first line of the code
 import random
@@ -255,7 +256,8 @@ def on_message(client, userdata, msg):
                     angle = payload['value']
                     motor.ev3motor.run_to_rel_pos(position_sp = angle, speed_sp = 500, stop_action = 'hold')
                     sleep(1)
-                    motor.ev3motor.run_to_rel_pos(position_sp = -angle, stop_action = 'hold')
+                    angle = -angle
+                    motor.ev3motor.run_to_rel_pos(position_sp = angle, speed_sp = 500, stop_action = 'hold')
 
     elif msg.topic == 'motor/action/rel1verse':                   # this topic identifies the action (rel_pos -> +240, rel_pos ->-240)
         payload = msg.payload.decode("utf-8","ignore")      # transform payload into str
@@ -323,9 +325,9 @@ def on_message(client, userdata, msg):
         for motor in Motor.motors_list:
             if payload['ev3'] == ev3.name:                  # checks if this ev3 is the addressee of the published message
                 if payload['motor'] == motor.name:          # looks for the right motor to activate
-                    print('Requested motor '+motor.name+' activation.')
+                    print('Requested motor '+motor.name+' stop.')
                     how = payload['value']
-                    motor.ev3motor.stop(stop_action = how)
+                    motor.ev3motor.stop()  # stop_action = how
 
     elif msg.topic == 'scan':
 
@@ -433,6 +435,5 @@ while condition:
             traceback.print_exc()
             Sensor.sensors_list.remove(sensor)  # removes faulty sensor
     sleep(0.1)                                                     # sensors output refreshing happens every ~0.1 sec
-
 print('Ending listening. Closing script.')
 client.loop_stop()

@@ -21,6 +21,9 @@ import static GUI.EV3GUI.*;
 
 public class ButtonAddMotor extends MqttButton {
 
+    private String port;
+    private String type;
+
     public ButtonAddMotor(Ev3 ev3){
         ButtonAddMotor buttonAddMotor = this;
         this.setText("+Motor");
@@ -31,7 +34,7 @@ public class ButtonAddMotor extends MqttButton {
 
                 GridPane secondaryLayout = new GridPane();
 
-                Scene secondScene = new Scene(secondaryLayout, 230, 180);
+                Scene secondScene = new Scene(secondaryLayout, 300, 200);
 
                 // New window (Stage)
                 Stage newWindow = new Stage();
@@ -55,26 +58,46 @@ public class ButtonAddMotor extends MqttButton {
                 motor.setStyle("-fx-text-fill: GREEN");
                 Label portText = new Label("EV3 Port: \n(outA,B,C,D)");
                 Label motorText = new Label("Motor type: \n(Large/Medium)");
-                TextField port = new TextField();
+                /*TextField port = new TextField();
                 port.setPrefWidth(100);
                 TextField type = new TextField();
-                type.setPrefWidth(100);
+                type.setPrefWidth(100);*/
                 Button confirm = new Button("Confirm");
 
                 secondaryLayout.add(motor,0,0);
                 secondaryLayout.add(portText,0,2);
-                secondaryLayout.add(motorText,0,3);
-                secondaryLayout.add(port,1,2);
-                secondaryLayout.add(type,1,3);
-                secondaryLayout.add(confirm,0,4);
-
+                secondaryLayout.add(motorText,4,2);
+                char letter = 'A';
+                int line = 2;
+                for(int l = 0; l < 4; l++) {
+                    Button bt = new Button("out" + Character.toString(letter++));
+                    secondaryLayout.add(bt, 1, 2 + l);
+                    line += l;
+                    bt.setOnMousePressed(e ->{
+                        port = bt.getText();
+                        bt.setStyle("-fx-background-color: GREEN;");
+                    });
+                }
+                Button large = new Button("Large");
+                large.setOnMousePressed(e ->{
+                    type = large.getText();
+                    large.setStyle("-fx-background-color: GREEN;");
+                });
+                secondaryLayout.add(large,5,2);
+                Button medium = new Button("Medium");
+                medium.setOnMousePressed(e ->{
+                    type = medium.getText();
+                    medium.setStyle("-fx-background-color: GREEN;");
+                });
+                secondaryLayout.add(medium,5,3);
+                secondaryLayout.add(confirm,0,line+= 2);
                 confirm.setOnMousePressed(e -> {
                     try {
-                        Component newComponent = new Component(ev3, port.getCharacters().toString(), type.getCharacters().toString());
+                        Component newComponent = new Component(ev3, port, type);
                         //JSONObject obj2 = new JSONObject();
                         //obj2.put("ev3", ev3.getName());
                         int k = 0;
-                        switch(port.getCharacters().toString()){
+                        switch(port){
                             case("outA"):
                                 k=1;
                                 break;
@@ -90,6 +113,7 @@ public class ButtonAddMotor extends MqttButton {
                             default:
                                 throw new Exception();
                         }
+                        newComponent.setPort(k);
                         //obj2.put(Integer.toString(k), port.getCharacters().toString());
                         //int k = Integer.parseInt(port.getCharacters().toString());
                         //obj2.put(Integer.toString(k+1), type.getCharacters().toString());
@@ -97,8 +121,8 @@ public class ButtonAddMotor extends MqttButton {
                         for (Ev3 ev: Ev3List) {
                             if(ev.getName().equals(ev3.getName())){
                                 ev.jsonPut("ev3", ev3.getName());
-                                ev.jsonPut(Integer.toString(k), port.getCharacters().toString());
-                                ev.jsonPut(Integer.toString(k+1), type.getCharacters().toString());
+                                ev.jsonPut(Integer.toString(k), port);
+                                ev.jsonPut(Integer.toString(k+1), type);
                             }
                         }
                         int i=0;
@@ -111,7 +135,7 @@ public class ButtonAddMotor extends MqttButton {
                                 //obj2.put(Integer.toString(i), null);
                         }
 
-                        System.out.print(ev3.getJsonObject());
+                        System.out.println(ev3.getJsonObject());
                         MqttMessage message2 = new MqttMessage();
                         message2.setPayload(ev3.getJsonObject().toJSONString().getBytes());
                         GuiClient.publish("ev3_config", message2);
@@ -122,7 +146,7 @@ public class ButtonAddMotor extends MqttButton {
                         newPanel.setLayout(400 + EV3GUI.panels.indexOf(newPanel) * 10,200 + EV3GUI.panels.indexOf(newPanel) * 10);
                         newWindow.close();
                     } catch(Exception q){
-                        //q.printStackTrace();
+                        q.printStackTrace();
                         System.out.println("ERROR: Invalid configuration by catching GENERIC exception (printStackTrace to debug)");
                         Label error = new Label("Invalid configuration\nRetry or exit");
                         secondaryLayout.add(error,1,0);

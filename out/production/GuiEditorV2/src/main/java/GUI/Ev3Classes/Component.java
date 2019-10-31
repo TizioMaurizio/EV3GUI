@@ -37,18 +37,22 @@ public class Component {
     private String type;
 
     private MqttButton panel = new MqttButton();
+
+    public void setPort(int port) {
+        this.port = port;
+    }
+
     private int port; // (position in ev3 initialize array, 1-3-5-7 for motors, 9-10-11-12 for sensors)
 
     public Component(Ev3 newEv3, String newName, String newType){
         ev3 = newEv3;
         name = newName;
         type = newType;
-        port = parsePort(name);
     }
 
     public static int parsePort(String port){
         try {
-            //TODO switch
+            //  port assegnato dagli switch dei ButtonAdd
             return Integer.parseInt(port.toString());
         } catch(NumberFormatException q){
             return -1;

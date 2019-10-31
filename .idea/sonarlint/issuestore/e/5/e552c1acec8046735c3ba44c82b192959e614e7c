@@ -1,0 +1,13 @@
+
+Šsquid:S1845“"fRename field "dragBar" to prevent any misunderstanding/clash with method "dragBar" defined on line 89.(ÕĞ§‹ûÿÿÿÿ8ûŒ§¹á-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë“š°ùÿÿÿÿ
+„squid:S1845‘"`Rename field "stop" to prevent any misunderstanding/clash with method "stop" defined on line 66.(‚Ãçğúÿÿÿÿ8ûŒ§¹á-
+@squid:S1148S"#Use a logger to log this exception.(ñ@8”Íà³á-
+osquid:UselessImportCheck"?Remove this unused import 'javafx.scene.layout.BackgroundFill'.(ß¡‰úÿÿÿÿ8¡İ¡»á-
+—squid:S1192,"tDefine a constant instead of duplicating this literal "-fx-background-color: WHITE; -fx-border-color: GREY" 3 times.(Ç›óÚúÿÿÿÿ8åÕÍ»á-
+‹squid:S1845"gRename field "ev3Name" to prevent any misunderstanding/clash with method "ev3Name" defined on line 127.(£ËÎ¶úÿÿÿÿ8ñÆ·¹á-
+…squid:S1845ˆ"aRename field "name" to prevent any misunderstanding/clash with method "name" defined on line 113.(õşÃÌüÿÿÿÿ8¿Ù®¹á-
+ksquid:UselessImportCheck
+";Remove this unused import 'javafx.scene.layout.Background'.(¤ä—ıÿÿÿÿ8ì÷ »á-
+‹squid:S1845"lRename field "closePanel" to prevent any misunderstanding/clash with method "closePanel" defined on line 48.(çÄşŞ8ûŒ§¹á-
+`squid:UselessImportCheck"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£à8¡İ¡»á-

@@ -1,0 +1,20 @@
+
+esquid:S2184z"BCast one of the operands of this addition operation to a "double".(¶ï°‘ÿÿÿÿÿ8·Œ»á-
+Vsquid:S1135•"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8õã“¦á-
+nsquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(â¶…¯ûÿÿÿÿ8¤ûÌ¸á-
+¥squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ß’¬•üÿÿÿÿ8õã“¦á-
+V
+squid:S106~"9Replace this use of System.out or System.err by a logger.(ş«îĞ8ãà…»á-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü‰ÎŸ
+nsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(ÓÄŒúøÿÿÿÿ8³±É¸á-
+nsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(Ü»™†øÿÿÿÿ8ŠİÎ¸á-
+Vsquid:S1135Š"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8õã“¦á-
+[
+squid:S106r"9Replace this use of System.out or System.err by a logger.(šŸó½ÿÿÿÿÿ8·Œ»á-
+isquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(™•º½8ãà…»á-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(®şäµüÿÿÿÿ8Á¸á-
+esquid:S2184z"BCast one of the operands of this addition operation to a "double".(¶ï°‘ÿÿÿÿÿ8·Œ»á-
+Fsquid:S1604"(Make this anonymous inner class a lambda(¾Íğ•8ùˆó–á-
+dsquid:S00112["FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe8—È¾·á-
+lsquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(–âîÁ8ì“Æ¢á-
+isquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(áú›8¡‰¸á-
