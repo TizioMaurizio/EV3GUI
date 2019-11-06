@@ -1,14 +1,34 @@
 
-bsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(Ô¦Íÿ
+osquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(Ð³™°øÿÿÿÿ8ÙÁÇÿá-
+jsquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(†€éˆ8ÙÁÇÿá-
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë“š°ùÿÿÿÿ
-Osquid:S1135¼"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ªªÅéþÿÿÿÿ8×˜¯¹á-
 \
-squid:S106¦"9Replace this use of System.out or System.err by a logger.(¢“Åµúÿÿÿÿ8®ÑÖ³á-
-žsquid:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ß’¬•üÿÿÿÿ
-gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(­€àûûÿÿÿÿ
-nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(Ð³™°øÿÿÿÿ8Íå¯¹á-
-Gsquid:S1148¬"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8®ÑÖ³á-
-nsquid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(È±â™ÿÿÿÿÿ8ý“¿Žá-
-?squid:S11488"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-Osquid:S1135±"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+squid:S106Ž"9Replace this use of System.out or System.err by a logger.(ñóÿäûÿÿÿÿ8ú «ýá-
+esquid:S2142Ð"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÙÁÇÿá-
+Vsquid:S1135™"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8ú «ýá-
+jsquid:UselessImportCheck":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8ÄÑóøá-
+nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(È±â™ÿÿÿÿÿ8ÙÁÇÿá-
+`squid:S1858Ý"A"getText" returns a string, there's no need to call "toString()".(éë‚ž8ÙÁÇÿá-
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ß÷Óýá-
+Isquid:S1481y"+Remove this unused "finish" local variable.(ÜÑ©Á8ÙÁÇÿá-
+Gsquid:S1148”"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ú «ýá-
+\
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(ìÂÂÊùÿÿÿÿ8ÙÁÇÿá-
+jsquid:S1192"FDefine a constant instead of duplicating this literal "value" 4 times.(ï›«Ðûÿÿÿÿ8ú «ýá-
+Zsquid:UselessImportCheck"/Remove this unused import 'javafx.event.Event'.(ô”áñ8î°üøá-
+Vsquid:S1135¤"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8ú «ýá-
+nsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(­€àûûÿÿÿÿ8ÙÁÇÿá-
+W
+squid:S106Î"9Replace this use of System.out or System.err by a logger.(àÓ³Ö8ÙÁÇÿá-
+Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÙÁÇÿá-
+fsquid:UselessImportCheck"6Remove this unused import 'org.json.simple.JSONArray'.(àÐ›¢þÿÿÿÿ8ù‹æðá-
+Žsquid:S1319w"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(±å­ž8ÙÁÇÿá-
+“squid:S1192ª"tDefine a constant instead of duplicating this literal "-fx-background-color: WHITE; -fx-border-color: GREY" 3 times.(æÎ¦æ8ÙÁÇÿá-
+Gsquid:S1604Ú"(Make this anonymous inner class a lambda(”†Îå8ÙÁÇÿá-
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(ªªÅéþÿÿÿÿ8ÙÁÇÿá-
+hsquid:UselessImportCheck
+"8Remove this unused import 'javafx.scene.input.KeyEvent'.(¦¶ Æøÿÿÿÿ8½èùá-
+esquid:S2184Ï"FCast one of the operands of this multiplication operation to a "long".(¤ÄÀØ8ÙÁÇÿá-
+isquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(Ô¦Íÿ8ÙÁÇÿá-
+Ksquid:S1602ð",Remove useless curly braces around statement(ðèÂ–8ÙÁÇÿá-
+¥squid:S1186ž"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ß’¬•üÿÿÿÿ8ú «ýá-

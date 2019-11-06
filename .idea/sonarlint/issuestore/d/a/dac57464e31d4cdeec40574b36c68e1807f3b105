@@ -1,7 +1,7 @@
 
-bsquid:UselessImportCheck"9Remove this unused import 'javafx.scene.control.Control'.(´¶«±ÿÿÿÿÿ
 rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü‰ÎŸ
 nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(€©¦•ÿÿÿÿÿ
 gsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(Ù›Œ®ûÿÿÿÿ
-esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(çë‹á
 Ysquid:UselessImportCheck"0Remove this unused import 'javafx.scene.Cursor'.(Ó©ëÝþÿÿÿÿ
+bsquid:UselessImportCheck"9Remove this unused import 'javafx.scene.control.Control'.(´¶«±ÿÿÿÿÿ
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(çë‹á

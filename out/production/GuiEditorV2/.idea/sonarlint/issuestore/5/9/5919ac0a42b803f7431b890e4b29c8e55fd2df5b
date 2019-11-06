@@ -1,25 +1,25 @@
 
 [
 squid:S106f"9Replace this use of System.out or System.err by a logger.(îæƒÏøÿÿÿÿ8‘ÿ´á-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İØ˜úÿÿÿÿ
 usquid:S3776V"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ß’¬•üÿÿÿÿ8²É£¥á-
-[
-squid:S106e"9Replace this use of System.out or System.err by a logger.(åıÕºüÿÿÿÿ8‘ÿ´á-
-Nsquid:S1135P"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-?squid:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Ksquid:S1604h"(Make this anonymous inner class a lambda(ôâŠûıÿÿÿÿ8²ö©¢á-
-Gsquid:S1148“"#Use a logger to log this exception.(¡ªÃ—ÿÿÿÿÿ8Ê¸è·á-
-asquid:HiddenFieldCheckX":Rename "parser" which hides the field declared at line 25.(…’öüÿÿÿÿ
-nsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(öºêÖøÿÿÿÿ8Ê¸è·á-
-W
-squid:S106’"9Replace this use of System.out or System.err by a logger.(€Ë·‡8Ê¸è·á-
-Vsquid:S1135š"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ê¸è·á-
-"squid:ClassVariableVisibilityCheck"YMake ev3ButtonList a static final constant or non-public and provide accessors if needed.(Ô¥“ß8×ğ»¤á-
-Msquid:S1066{"/Merge this if statement with the enclosing one.(¼–Çñ8Ê¸è·á-
-Rsquid:S1066z"/Merge this if statement with the enclosing one.(øİ¸âıÿÿÿÿ8ıÛ‰§á-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İØ˜úÿÿÿÿ
 ;squid:S2386"Make this member "protected".(Ô¥“ß8×ğ»¤á-
-O
-squid:S106d"9Replace this use of System.out or System.err by a logger.(Üúé½
+Gsquid:S1148“"#Use a logger to log this exception.(¡ªÃ—ÿÿÿÿÿ8Ê¸è·á-
+Nsquid:S1135P"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Msquid:S1066{"/Merge this if statement with the enclosing one.(¼–Çñ8Ê¸è·á-
+Ksquid:S1604h"(Make this anonymous inner class a lambda(ôâŠûıÿÿÿÿ8²ö©¢á-
+wsquid:S1192u"YDefine a constant instead of duplicating this literal "; -fx-border-color: GREY" 3 times.(ÈÉ‡8çÁÅ»á-
+asquid:HiddenFieldCheckX":Rename "parser" which hides the field declared at line 25.(…’öüÿÿÿÿ
+Vsquid:S1135š"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ê¸è·á-
 usquid:S1192u"WDefine a constant instead of duplicating this literal "-fx-background-color: " 3 times.(ÈÉ‡8Ö´ã·á-
 Qsquid:S1444"3Make this "public static ev3ButtonList" field final(Ô¥“ß8×ğ»¤á-
-wsquid:S1192u"YDefine a constant instead of duplicating this literal "; -fx-border-color: GREY" 3 times.(ÈÉ‡8çÁÅ»á-
+?squid:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"YMake ev3ButtonList a static final constant or non-public and provide accessors if needed.(Ô¥“ß8×ğ»¤á-
+W
+squid:S106’"9Replace this use of System.out or System.err by a logger.(€Ë·‡8Ê¸è·á-
+Rsquid:S1066z"/Merge this if statement with the enclosing one.(øİ¸âıÿÿÿÿ8ıÛ‰§á-
+[
+squid:S106e"9Replace this use of System.out or System.err by a logger.(åıÕºüÿÿÿÿ8‘ÿ´á-
+nsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(öºêÖøÿÿÿÿ8Ê¸è·á-
+O
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Üúé½

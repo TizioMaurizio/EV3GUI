@@ -1,6 +1,4 @@
 
-K
-src/main/java/GUI/Main.java,7\6\762aaeb6875c32bc88a288d5f30322fc5ab754bf
 \
 ,src/main/java/GUI/CustomButtons/Dragbar.java,2\5\25958f7a473e9dc2c87f4cc5872e1f478de18597
 \
@@ -35,3 +33,5 @@ d
 0src/main/java/GUI/ControlPanels/SensorPanel.java,8\b\8b684a106973702d3b15036380b6833f482a2f0f
 a
 1src/main/java/GUI/ControlPanels/ControlPanel.java,e\5\e552c1acec8046735c3ba44c82b192959e614e7c
+L
+src/main/java/view/Main.java,3\6\3607f69ac32282634241e9a380d7cfe432f50346

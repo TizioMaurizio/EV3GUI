@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="library" level="project" name="lib" />
+      <element id="library" level="project" name="org.eclipse.paho.client.mqttv3-1.1.1" />
+      <element id="artifact" artifact-name="GuiEditorV2:jar" />
+      <element id="library" level="project" name="javafx-swt" />
+    </root>
+  </artifact>
+</component>

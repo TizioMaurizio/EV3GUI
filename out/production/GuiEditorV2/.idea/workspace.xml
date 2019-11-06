@@ -1,45 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GuiEditorV2:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="50f1ed0e-ac1a-49d4-8c4e-ca5ffb2e3114" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2ccc786acf9b18cbae5cedf5e37da713c05c82f9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GuiEditorV2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GuiEditorV2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25958f7a473e9dc2c87f4cc5872e1f478de18597" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25958f7a473e9dc2c87f4cc5872e1f478de18597" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5919ac0a42b803f7431b890e4b29c8e55fd2df5b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5919ac0a42b803f7431b890e4b29c8e55fd2df5b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87f1c424547db147acf2e0c863326d3e1e4b5d67" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87f1c424547db147acf2e0c863326d3e1e4b5d67" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b684a106973702d3b15036380b6833f482a2f0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b684a106973702d3b15036380b6833f482a2f0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad82d86a362f815255ff6e5739122452fea216e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad82d86a362f815255ff6e5739122452fea216e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/dac57464e31d4cdeec40574b36c68e1807f3b105" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/dac57464e31d4cdeec40574b36c68e1807f3b105" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e552c1acec8046735c3ba44c82b192959e614e7c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e552c1acec8046735c3ba44c82b192959e614e7c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0499d1e2427e600039c0cd3170201f2203e278c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0499d1e2427e600039c0cd3170201f2203e278c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3a7fcebd1b74ddbedce4d2bbbb4ef63505ff197" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3a7fcebd1b74ddbedce4d2bbbb4ef63505ff197" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9e81a8075fbbe911dcbb05f1bdbb423fe4ab759" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9e81a8075fbbe911dcbb05f1bdbb423fe4ab759" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe07179271adbc3008e672a4796fd2b38b67a699" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe07179271adbc3008e672a4796fd2b38b67a699" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EV3PY/codice ev3.py" beforeDir="false" afterPath="$PROJECT_DIR$/EV3PY/codice ev3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/2/c/2ccc786acf9b18cbae5cedf5e37da713c05c82f9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/2/5/25958f7a473e9dc2c87f4cc5872e1f478de18597" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/2/5/25958f7a473e9dc2c87f4cc5872e1f478de18597" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/5/9/5919ac0a42b803f7431b890e4b29c8e55fd2df5b" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/5/9/5919ac0a42b803f7431b890e4b29c8e55fd2df5b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/7/6/762aaeb6875c32bc88a288d5f30322fc5ab754bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/8/7/87f1c424547db147acf2e0c863326d3e1e4b5d67" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/8/7/87f1c424547db147acf2e0c863326d3e1e4b5d67" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/8/b/8b684a106973702d3b15036380b6833f482a2f0f" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/8/b/8b684a106973702d3b15036380b6833f482a2f0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/a/d/ad82d86a362f815255ff6e5739122452fea216e6" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/a/d/ad82d86a362f815255ff6e5739122452fea216e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/d/a/dac57464e31d4cdeec40574b36c68e1807f3b105" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/d/a/dac57464e31d4cdeec40574b36c68e1807f3b105" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/e/5/e552c1acec8046735c3ba44c82b192959e614e7c" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/e/5/e552c1acec8046735c3ba44c82b192959e614e7c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/0/f0499d1e2427e600039c0cd3170201f2203e278c" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/0/f0499d1e2427e600039c0cd3170201f2203e278c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/3/f3a7fcebd1b74ddbedce4d2bbbb4ef63505ff197" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/3/f3a7fcebd1b74ddbedce4d2bbbb4ef63505ff197" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/9/f9e81a8075fbbe911dcbb05f1bdbb423fe4ab759" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/9/f9e81a8075fbbe911dcbb05f1bdbb423fe4ab759" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/e/fe07179271adbc3008e672a4796fd2b38b67a699" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/f/e/fe07179271adbc3008e672a4796fd2b38b67a699" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/EV3PY/codice ev3.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/EV3PY/codice ev3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/ControlPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/ControlPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/MotorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/MotorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/SensorPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/SensorPanel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/SensorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/ControlPanels/SensorPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddMotor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/ButtonAddSensor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/Dragbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/Dragbar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/MinimizeButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/CustomButtons/MinimizeButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/Ev3Classes/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/Ev3Classes/Component.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/in4GUIEv3ClassesEv3309ef9a9-tcplocalhost1883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/outAGUIEv3ClassesEv3309ef9a9-tcplocalhost1883/.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/GUI/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/MotorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/MotorPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/ControlPanels/SensorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/Dragbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/Dragbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/MinimizeButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/CustomButtons/MinimizeButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/Ev3Classes/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/Ev3Classes/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GuiEditorV2/src/main/java/GUI/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,18 +66,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="303" column="71" selection-start-line="303" selection-start-column="71" selection-end-line="303" selection-end-column="71" />
+            <state relative-caret-position="9720">
+              <caret line="384" column="44" selection-start-line="384" selection-start-column="44" selection-end-line="384" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2482#2483#0" expanded="true" />
-                <element signature="method#rotateHistory#0;class#MotorPanel#0" />
-                <element signature="e#12358#13060#0" expanded="true" />
-                <element signature="e#13059#13060#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
+                <element signature="e#2480#2481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="810">
               <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
+            <state relative-caret-position="729">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#489#490#0" expanded="true" />
@@ -98,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="43" column="66" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="66" />
+            <state relative-caret-position="3213">
+              <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="279">
               <caret line="47" column="21" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,15 +132,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+            <state relative-caret-position="513">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#componentName#0;class#ControlPanel#0" />
-                <element signature="e#3697#3726#1" />
-                <element signature="e#4365#4366#0" expanded="true" />
-                <element signature="e#3758#3788#1" />
-                <element signature="e#4427#4428#0" expanded="true" />
+                <element signature="method#closePanel#0;class#ControlPanel#0" />
+                <element signature="e#4407#4408#0" expanded="true" />
+                <element signature="e#4435#4436#0" expanded="true" />
+                <element signature="e#4468#4469#0" expanded="true" />
+                <element signature="e#4497#4498#0" expanded="true" />
                 <element signature="method#setLayout#0;class#ControlPanel#0" />
                 <element signature="method#name#0;class#ControlPanel#0" />
                 <element signature="method#ev3Name#0;class#ControlPanel#0" />
@@ -142,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="863">
+            <state relative-caret-position="972">
               <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
               <folding>
                 <element signature="method#Component#0;class#Component#0" />
@@ -154,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+            <state relative-caret-position="2241">
+              <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,10 +174,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+            <state relative-caret-position="1404">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,10 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>system</find>
-      <find>runlate</find>
-      <find>ev3c</find>
-      <find>obj2</find>
       <find>getC</find>
       <find>addM</find>
       <find>addAll</find>
@@ -211,11 +226,15 @@
       <find>closePa</find>
       <find>ev3</find>
       <find>rel</find>
-      <find>scan</find>
       <find>minimi</find>
       <find>minimize</find>
-      <find>mini</find>
       <find>relAng</find>
+      <find>bt4</find>
+      <find>relTimele</find>
+      <find>thread</find>
+      <find>platfor</find>
+      <find>mini</find>
+      <find>scan</find>
     </findStrings>
     <replaceStrings>
       <replace>scene1</replace>
@@ -224,8 +243,9 @@
       <replace>&quot;</replace>
       <replace>configGrid</replace>
       <replace>addSensor</replace>
-      <replace>relAngle</replace>
+      <replace>bt8</replace>
       <replace>relTime</replace>
+      <replace>relAngle</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -259,12 +279,12 @@
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ControlPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddMotor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java" />
       </list>
     </option>
@@ -276,7 +296,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="78" />
+    <option name="x" value="-1248" />
+    <option name="y" value="182" />
     <option name="width" value="1207" />
     <option name="height" value="1017" />
   </component>
@@ -297,40 +318,27 @@
             <path>
               <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="ControlPanels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomButtons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="Ev3Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EV3GUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EV3GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utility" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,7 +349,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JSon simple/json-simple-1.1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -368,7 +376,7 @@
   </component>
   <component name="RunManager">
     <configuration name="EV3GUI" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="GUI.Main" />
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
       <module name="GuiEditorV2" />
       <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml --illegal-access=warn" />
       <method v="2">
@@ -389,11 +397,19 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="104" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15116279" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2171825" />
       <window_info id="Structure" order="1" weight="0.249694" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,21 +418,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884398" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26150393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38870794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.325477" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31487513" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3294621" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32925338" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -493,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Old/PahoDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -530,91 +539,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/Dragbar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="43" column="66" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="method#Component#0;class#Component#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#componentName#0;class#ControlPanel#0" />
-            <element signature="e#3697#3726#1" />
-            <element signature="e#4365#4366#0" expanded="true" />
-            <element signature="e#3758#3788#1" />
-            <element signature="e#4427#4428#0" expanded="true" />
-            <element signature="method#setLayout#0;class#ControlPanel#0" />
-            <element signature="method#name#0;class#ControlPanel#0" />
-            <element signature="method#ev3Name#0;class#ControlPanel#0" />
           </folding>
         </state>
       </provider>
@@ -629,9 +559,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="582" column="38" selection-start-line="582" selection-start-column="38" selection-end-line="582" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9720">
+          <caret line="384" column="44" selection-start-line="384" selection-start-column="44" selection-end-line="384" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/MinimizeButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="810">
           <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -639,17 +588,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/MotorPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonEv3Name.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="303" column="71" selection-start-line="303" selection-start-column="71" selection-end-line="303" selection-end-column="71" />
+        <state relative-caret-position="729">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CustomButtons/ButtonAddSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
-            <element signature="method#rotateHistory#0;class#MotorPanel#0" />
-            <element signature="e#12358#13060#0" expanded="true" />
-            <element signature="e#13059#13060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/ControlPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="method#componentName#0;class#ControlPanel#0" />
+            <element signature="method#closePanel#0;class#ControlPanel#0" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4435#4436#0" expanded="true" />
+            <element signature="e#4468#4469#0" expanded="true" />
+            <element signature="e#4497#4498#0" expanded="true" />
+            <element signature="method#setLayout#0;class#ControlPanel#0" />
+            <element signature="method#name#0;class#ControlPanel#0" />
+            <element signature="method#ev3Name#0;class#ControlPanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="method#Component#0;class#Component#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ControlPanels/SensorPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ev3Classes/Ev3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,10 +680,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -2,6 +2,9 @@ package GUI.ControlPanels;
 
 import GUI.Ev3Classes.Component;
 import javafx.application.Platform;
+import javafx.concurrent.Task;
+import javafx.concurrent.WorkerStateEvent;
+import javafx.event.EventHandler;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.StackPane;
 import org.json.simple.JSONObject;
@@ -32,6 +35,7 @@ public class SensorPanel extends ControlPanel implements MqttCallback{
         name();
         colorBox();
         color();
+        colorHistory();
 
         try {
             client2 = new MqttClient("tcp://localhost:1883", component.getName()+component.getEv3());
@@ -62,6 +66,71 @@ public class SensorPanel extends ControlPanel implements MqttCallback{
             //
         });
         buttons.add(colorBox);
+    }
+
+    Button col = new Button();
+    List<Button> colList = new ArrayList<>();
+    int colorNum = 20;
+    int timeSpan = 2000;
+
+    private void colorHistory(){
+        double xOffset = 0;
+        for(int i = 0; i < colorNum; i++){
+            col = new Button();
+            col.setPrefWidth(width / colorNum);
+            col.setMinWidth(width / colorNum);
+            col.setMaxWidth(width / colorNum);
+            col.setTranslateY(dragBar.getPrefHeight() + ev3Name.getPrefHeight() + colorBox.getPrefHeight());
+            col.setTranslateX(xOffset);
+            xOffset += col.getPrefWidth();
+            col.setStyle("-fx-background-color: WHITE; -fx-border-color: GREY");
+            colList.add(col);
+            buttons.add(col);
+        }
+        colorHistoryLoop();
+        System.out.println(component.getName() + " color refresh every " + (double) sleepTime / 1000 + " seconds");
+    }
+
+    private int sleepTime = timeSpan / colorNum;
+    Button prevBt = null;
+    int index = 0;
+    int counter = 0;
+    private void colorHistoryLoop() {
+
+        // TODO PESANTISSIMO? preleva in maniera asincrona da color
+
+        // TODO continua a andare se si chiude il pannello?
+        Task<Void> sleeper = new Task<Void>() {
+            @Override
+            protected Void call() throws Exception {
+                try {
+                    Thread.sleep(sleepTime);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+        };
+
+        sleeper.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+            @Override
+            public void handle(WorkerStateEvent event) {
+                counter++;
+                for (Button bt : colList) {
+                    index = colList.size() - 1 - colList.indexOf(bt);
+                    if (index == 0) {   // first element
+                        colList.get(index).setText(Integer.toString(counter));
+                        colList.get(index).setStyle(color.getStyle());
+                    } else {
+                        colList.get(index).setStyle(colList.get(index-1).getStyle());
+                    }
+                    prevBt = bt;
+                }
+                // System.out.println(component.getName() + " update");
+                colorHistoryLoop();
+            }
+        });
+        new Thread(sleeper).start();
     }
 
     private void color(){

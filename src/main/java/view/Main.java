@@ -1,5 +1,6 @@
-package GUI;
+package view;
 
+import GUI.EV3GUI;
 import javafx.application.*;
 import javafx.stage.*;
 import org.eclipse.paho.client.mqttv3.MqttException;

@@ -1,5 +1,5 @@
 
-ssquid:S00116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß†ııÿÿÿÿ8ÿ§¢£á-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹¿››øÿÿÿÿ
-osquid:S001165"PRename this field "Color" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»à¡8Ú‡­¸á-
 „squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(€ÿœ¿ùÿÿÿÿ8²ù¸ºá-
+osquid:S001165"PRename this field "Color" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»à¡8Ú‡­¸á-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹¿››øÿÿÿÿ
+ssquid:S00116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß†ııÿÿÿÿ8ÿ§¢£á-

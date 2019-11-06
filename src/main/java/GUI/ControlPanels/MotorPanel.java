@@ -382,7 +382,7 @@ public class MotorPanel extends ControlPanel implements MqttCallback{
             try {
                 List<String> test = new ArrayList<>();
                 test.add(field.getText());
-                obj2.put("value", test);
+                obj2.put("value", test.get(0));
             } catch (NumberFormatException e) {
                 obj2.put("value", 0);
             }

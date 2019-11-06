@@ -254,10 +254,7 @@ def on_message(client, userdata, msg):
                 if payload['motor'] == motor.name:          # looks for the right motor to activate
                     print('Requested motor '+motor.name+' activation.')
                     angle = payload['value']
-                    motor.ev3motor.run_to_rel_pos(position_sp = angle, speed_sp = 500, stop_action = 'hold')
-                    sleep(1)
-                    angle = -angle
-                    motor.ev3motor.run_to_rel_pos(position_sp = angle, speed_sp = 500, stop_action = 'hold')
+                    motor.ev3motor.run_to_rel_pos(position_sp = angle, speed_sp = 500, stop_action = 'brake')
 
     elif msg.topic == 'motor/action/rel1verse':                   # this topic identifies the action (rel_pos -> +240, rel_pos ->-240)
         payload = msg.payload.decode("utf-8","ignore")      # transform payload into str
@@ -370,34 +367,6 @@ while not condition:
 while condition:
     if configuring == True:
         sleep(5)
-    for motor in Motor.motors_list:
-        try:
-            try:
-                state_prev = state  # FAULTY
-                state = motor.ev3motor.state
-                if (state != state_prev):
-                    topic = 'motor/state'
-                    client.publish(topic, motor.name + "changed: " + state.toString(), 2)
-                if motor.ev3motor.is_overloaded:
-                    motor.ev3motor.stop()
-                    topic = 'motor/state/overloaded'
-                    client.publish(topic, motor.name + "is OVERLOADED", 2)
-                if motor.ev3motor.is_holding:
-                    motor.ev3motor.stop()
-                    topic = 'motor/state/holding'
-                    client.publish(topic, motor.name + "is HOLDING", 2)
-                if motor.ev3motor.is_stalled:
-                    motor.ev3motor.stop()
-                    topic = 'motor/state/stalled'
-                    client.publish(topic, motor.name + "is STALLED", 2)
-            except:  # first start
-                state = motor.ev3motor.state
-                topic = 'motor/state'
-                client.publish(topic, motor.name + "state: " + state.toString(), 2)
-
-        except Exception as k:
-            traceback.print_exc()
-            Motor.motors_list.remove(motor)  # removes faulty motor
 
     for sensor in Sensor.sensors_list:
         try:

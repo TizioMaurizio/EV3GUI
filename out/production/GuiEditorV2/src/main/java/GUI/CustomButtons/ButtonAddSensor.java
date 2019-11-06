@@ -134,7 +134,7 @@ public class ButtonAddSensor extends MqttButton {
                             //obj2.put(Integer.toString(i), null);
                         }
 
-                        System.out.print(ev3.getJsonObject());
+                        System.out.println(ev3.getJsonObject());
                         MqttMessage message2 = new MqttMessage();
                         message2.setPayload(ev3.getJsonObject().toJSONString().getBytes());
                         GuiClient.publish("ev3_config", message2);
